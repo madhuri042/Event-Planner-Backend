@@ -7,6 +7,7 @@ const userRoutes = require("./routes/userRoutes");
 const eventRoutes = require("./routes/eventRoutes");
 const chatRoute = require('./routes/chat');
 
+
 connectDB(); // ✅ Connect to MongoDB
 
 const app = express();
